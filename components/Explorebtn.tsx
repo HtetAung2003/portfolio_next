@@ -2,14 +2,16 @@
 
 
 import Image from "next/image";
+import { Button } from "@/components/ui/button"
+import {SlideButton} from "@/components/ui/SlideButton";
 
 const Explorebtn = () => {
     return (
-<button type='button' onClick={ () => console.log('clicked')} className='mt-7 px-10 py-4 border   rounded-md  overflow-hidden '>
-    <a href='/' className='flex text-center'>   Explore Events
-        <Image src='/icons/arrow-down.svg' alt='down-arrow' width={24} height={24} /></a>
+        <div >
+       <SlideButton name1='Click to Contact' name2='Just Click' onClick={() => console.log('Go')}/>
 
-    </button>
+</div>
+
     )
 }
 export default Explorebtn
