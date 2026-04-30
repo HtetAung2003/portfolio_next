@@ -2,6 +2,7 @@ import React from 'react'
 import Explorebtn from "@/components/Explorebtn";
 import {AnimatedGrid} from "@/components/ui/AnimatedGrid";
 import Experience from "@/components/Experience";
+import Project from "@/components/Project";
 
 const Page = () => {
     return (
@@ -28,7 +29,8 @@ const Page = () => {
                 </p>
             </div>
 
-            <Experience/>
+            <Experience />
+            <Project/>
 
 </>
 

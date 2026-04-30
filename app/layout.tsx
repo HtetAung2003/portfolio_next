@@ -3,6 +3,7 @@ import { Schibsted_Grotesk , Martian_Mono, Geist } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import ScrollBackground from "@/components/ScrollBackground";
+import NavBar from "@/components/NavBar";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -31,6 +32,7 @@ export default function RootLayout({
       lang="en"
       className={cn("min-h-screen", "antialiased", schibstedGrotesk.variable, martianMono.variable, "font-sans", geist.variable)}
     >
+    <NavBar/>
       <body className="min-h-full flex flex-col">
         <ScrollBackground />
         <main>{children}</main>
