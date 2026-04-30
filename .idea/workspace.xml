@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6a54b349-bd49-430d-95ac-43fbbfc98b36" name="Changes" comment="add tech  section">
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-boy-iso-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-call-only-dynamic-gradient (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-call-only-dynamic-gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-chat-bubble-dynamic-color (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-chat-bubble-dynamic-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-facebook-dynamic-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-linkedin-dynamic-color.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3dicons-tea-cup-iso-clay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Explorebtn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Explorebtn.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavBar.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="48" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;HtetAung2003&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HtetAung2003/portfolio_next.git&quot;,
+    &quot;accountId&quot;: &quot;4a350165-93e0-4cfe-88cc-3da16ca6b97a&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3CsXzmOyTVoskKGBVYgmoJ3STmz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "javascript.preferred.runtime.type.id": "node",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kronk.content.tree.expanded.paths": "",
+    "last_opened_file_path": "C:/Users/IT/OneDrive/Desktop/nextjs/public/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\IT\\OneDrive\\Desktop\\nextjs\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\IT\OneDrive\Desktop\nextjs\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\IT\OneDrive\Desktop\nextjs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-3bd3a6803838-JavaScript-WS-261.22158.274" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6a54b349-bd49-430d-95ac-43fbbfc98b36" name="Changes" comment="" />
+      <created>1777175515837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777175515837</updated>
+      <workItem from="1777175516991" duration="3851000" />
+      <workItem from="1777377344148" duration="2756000" />
+      <workItem from="1777446889974" duration="3052000" />
+      <workItem from="1777453366888" duration="4782000" />
+      <workItem from="1777517867328" duration="5640000" />
+      <workItem from="1777526785547" duration="2820000" />
+      <workItem from="1777540761902" duration="3577000" />
+    </task>
+    <task id="LOCAL-00001" summary="project setup">
+      <option name="closed" value="true" />
+      <created>1777180849124</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1777180849124</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change design">
+      <option name="closed" value="true" />
+      <created>1777380088304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1777380088304</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add work section">
+      <option name="closed" value="true" />
+      <created>1777458130876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1777458130876</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add project  section">
+      <option name="closed" value="true" />
+      <created>1777524736415</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1777524736416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add tech  section">
+      <option name="closed" value="true" />
+      <created>1777529686831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1777529686831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project setup" />
+    <MESSAGE value="change design" />
+    <MESSAGE value="add work section" />
+    <MESSAGE value="add project  section" />
+    <MESSAGE value="add tech  section" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tech  section" />
+  </component>
+</project>
