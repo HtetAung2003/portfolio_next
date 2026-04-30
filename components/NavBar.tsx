@@ -7,7 +7,7 @@ const NavBar = () => {
      <header>
          <nav>
              <Link href='/' className='logo'>
-                 <Image src='/icons/logo.png' alt='logo' width={50} height={50} />
+
                  <p>Portfolio</p>
              </Link>
              <ul>

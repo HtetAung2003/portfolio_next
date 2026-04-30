@@ -4,19 +4,21 @@ import { useState } from "react";
 import Image from "next/image";
 import { ChevronDown } from "lucide-react";
 
-import NetworkBackground from "@/components/ui/NetworkBackground";
 import { cn } from "@/lib/utils";
 
 const Experience = () => {
     const [showDetails, setShowDetails] = useState(false);
 
     return (
-        <section className="relative left-1/2 mt-20 min-h-screen -translate-x-1/2 overflow-hidden ">
+        <section className="relative mt-16 overflow-hidden rounded-lg border border-white/10 bg-white/[0.04] px-4 py-8 shadow-[0_24px_80px_rgba(0,0,0,0.25)] backdrop-blur-xl sm:px-6 lg:px-8">
+            <div className="pointer-events-none absolute inset-0">
+                <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />
+                <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(89,222,202,0.16),transparent_34%)]" />
+                <div className="absolute inset-0 bg-[linear-gradient(120deg,transparent,rgba(148,234,255,0.08)_48%,transparent)]" />
+            </div>
 
-            <div className="absolute inset-0 z-[1]  backdrop-blur-[10px]" />
-
-            <div className="relative z-10 mx-auto grid min-h-screen w-full max-w-7xl items-center gap-10 px-5 py-16 sm:px-10 lg:grid-cols-[0.9fr_1.1fr]">
-                <div className="relative min-h-[420px] overflow-hidden rounded-lg border border-white/10 bg-white/5 shadow-2xl">
+            <div className="relative z-10 grid w-full items-center gap-8 lg:grid-cols-[0.8fr_1.2fr]">
+                <div className="relative min-h-[320px] overflow-hidden rounded-lg border border-white/10 bg-white/5 shadow-2xl sm:min-h-[420px]">
                     <Image
                         src="/images/event-full.png"
                         alt="Work experience portrait"
@@ -29,10 +31,10 @@ const Experience = () => {
                 </div>
 
                 <div className="text-white">
-                    <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-primary">
+                    <p className="font-martian-mono text-xs uppercase tracking-widest text-primary">
                         Work Experience
                     </p>
-                    <h2 className="font-schibsted-grotesk text-3xl font-bold sm:text-4xl">
+                    <h2 className="mt-2 font-schibsted-grotesk text-3xl font-bold sm:text-4xl">
                         KTZ Software | Senior Software Trainer & Implementation Specialist
                     </h2>
                     <p className="mt-3 text-lg font-semibold text-light-100">[2 Years]</p>

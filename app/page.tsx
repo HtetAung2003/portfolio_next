@@ -3,6 +3,7 @@ import Explorebtn from "@/components/Explorebtn";
 import {AnimatedGrid} from "@/components/ui/AnimatedGrid";
 import Experience from "@/components/Experience";
 import Project from "@/components/Project";
+import TechnicalSkills from "@/components/TechnicalSkills";
 
 const Page = () => {
     return (
@@ -30,6 +31,7 @@ const Page = () => {
             </div>
 
             <Experience />
+            <TechnicalSkills />
             <Project/>
 
 </>

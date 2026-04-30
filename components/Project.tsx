@@ -14,7 +14,7 @@ type GithubRepo = {
   stargazers_count: number;
   forks_count: number;
   updated_at: string;
-  topics : string;
+  topics : [];
 };
 
 const formatDate = (date: string) =>
@@ -58,10 +58,10 @@ const Project = () => {
   return (
     <section className="relative mt-16 overflow-hidden rounded-lg border border-white/10 bg-white/[0.03] px-4 py-8 shadow-[0_24px_80px_rgba(0,0,0,0.28)] backdrop-blur-xl sm:px-6 lg:px-8">
       <div className="pointer-events-none absolute inset-0 opacity-60">
-        <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(89,222,202,0.18),transparent_34%,rgba(148,234,255,0.12)_68%,transparent)]" />
+        {/*<div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(89,222,202,0.18),transparent_34%,rgba(148,234,255,0.12)_68%,transparent)]" />*/}
         <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.06)_1px,transparent_1px)] bg-[size:34px_34px]" />
-        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />
-        <div className="absolute inset-y-0 left-1/2 w-px bg-gradient-to-b from-transparent via-white/15 to-transparent" />
+        {/*<div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-primary to-transparent" />*/}
+        {/*<div className="absolute inset-y-0 left-1/2 w-px bg-gradient-to-b from-transparent via-white/15 to-transparent" />*/}
       </div>
 
       <div className="relative z-10 flex flex-col gap-6">
