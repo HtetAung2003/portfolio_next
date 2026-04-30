@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
-import Image from "next/image";
+
+import { openContactModal } from "@/components/contactBus";
 
 
 const NavBar = () => {
@@ -14,7 +17,13 @@ const NavBar = () => {
                  <Link href='/'>Home</Link>
                  <Link href='/'>Work Experience</Link>
                  <Link href='/'>Project</Link>
-                 <Link href='/'>Contact Me</Link>
+                 <button
+                     type="button"
+                     onClick={openContactModal}
+                     className="cursor-pointer text-left transition hover:text-primary"
+                 >
+                     Contact Me
+                 </button>
              </ul>
          </nav>
      </header>

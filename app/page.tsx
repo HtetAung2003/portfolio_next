@@ -4,6 +4,8 @@ import {AnimatedGrid} from "@/components/ui/AnimatedGrid";
 import Experience from "@/components/Experience";
 import Project from "@/components/Project";
 import TechnicalSkills from "@/components/TechnicalSkills";
+import About from "@/components/About";
+import ContactSection from "@/components/ContactSection";
 
 const Page = () => {
     return (
@@ -30,9 +32,11 @@ const Page = () => {
                 </p>
             </div>
 
+            <About />
             <Experience />
             <TechnicalSkills />
             <Project/>
+            <ContactSection />
 
 </>
 
