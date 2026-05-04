@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import ScrollBackground from "@/components/ScrollBackground";
 import NavBar from "@/components/NavBar";
 import ContactModal from "@/components/ContactModal";
+import FeedbackPopup from "@/components/FeedbackPopup";
 
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
@@ -38,6 +39,7 @@ export default function RootLayout({
         <ScrollBackground />
         <main>{children}</main>
         <ContactModal />
+        <FeedbackPopup />
       </body>
     </html>
   );
